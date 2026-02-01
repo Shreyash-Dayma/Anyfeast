@@ -10,7 +10,7 @@ This repository contains the Flutter (Material 3) UI implementation for the Anyf
   - `main.dart` — app entry and routes
 - `assets/screenshots/` — included UI screenshots
 
-## Screenshots 📸
+## Screenshots
 Below are the onboarding screens included in this repository (click images to open full-size).
 
 <p align="center">
