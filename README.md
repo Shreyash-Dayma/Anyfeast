@@ -8,11 +8,32 @@ This repository contains the Flutter (Material 3) UI implementation for the Anyf
   - `widgets/` — reusable components (option card, pill, buttons, header, animated navigation)
   - `theme/` — `app_theme.dart` with colors and text styles
   - `main.dart` — app entry and routes
-- `assets/screenshots/` — place screenshots here (see below)
+- `assets/screenshots/` — included UI screenshots
 
-## Screenshots
-Place the UI screenshots you provided into `assets/screenshots/` and name them clearly (e.g. `welcome.png`, `goal.png`, `diet.png`, ...).
-They will be displayed in the README when you add them to the folder.
+## Screenshots 📸
+Below are the onboarding screens included in this repository (click images to open full-size).
+
+<p align="center">
+  <img src="assets/screenshots/welcome.png" alt="Welcome" width="420" />
+  <img src="assets/screenshots/goal.png" alt="Goal" width="420" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/diet.png" alt="Diet" width="320" />
+  <img src="assets/screenshots/activity.png" alt="Activity" width="320" />
+  <img src="assets/screenshots/cooking.png" alt="Cooking" width="320" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/budget.png" alt="Budget" width="420" />
+  <img src="assets/screenshots/review.png" alt="Review" width="420" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/Success.png" alt="Success" width="420" />
+</p>
+
+*Images are stored in `assets/screenshots/` and will display automatically on GitHub.*
 
 ## Running locally
 1. Install Flutter (3.7+ recommended) and enable web support.
@@ -25,23 +46,21 @@ They will be displayed in the README when you add them to the folder.
 3. Open: http://localhost:8080
 
 ## GitHub upload options
-- Option A (I push for you): provide a GitHub repo URL or a personal access token (repo scope) and I'll push the code and add screenshots.
+- Option A (I push for you): I can push the current branch to your GitHub remote `origin` (already set to `https://github.com/Shreyash-Dayma/Anyfeast.git`).
 
 - Option B (You push locally): run these commands in this project root:
 
   ```bash
-  git init
   git add .
-  git commit -m "chore: add Anyfeast UI"
-  git remote add origin <your-github-repo-url>
-  git branch -M main
-  git push -u origin main
+  git commit -m "chore: add screenshots and README gallery"
+  git push origin main
   ```
 
-If you want me to push directly, reply with the repository URL (or a GitHub token) and whether it should be public or private. I can also create the repo for you if you prefer.
+If you want me to push directly, confirm and I'll push the changes to `origin/main`. If you prefer to push locally, run the commands above.
 
 ---
 
 If you'd like, I can also:
-- Add the provided screenshots automatically into `assets/screenshots` and embed them into this README. 📸
-- Create a `gh`/GitHub API-based workflow to create the repo and push (requires token). 🔐
+- Create a GitHub repo for you and push the code (requires a token with `repo` scope).
+- Add more README polishing or a GitHub Action to automatically update screenshots.
+
