@@ -45,22 +45,3 @@ Below are the onboarding screens included in this repository (click images to op
 
 3. Open: http://localhost:8080
 
-## GitHub upload options
-- Option A (I push for you): I can push the current branch to your GitHub remote `origin` (already set to `https://github.com/Shreyash-Dayma/Anyfeast.git`).
-
-- Option B (You push locally): run these commands in this project root:
-
-  ```bash
-  git add .
-  git commit -m "chore: add screenshots and README gallery"
-  git push origin main
-  ```
-
-If you want me to push directly, confirm and I'll push the changes to `origin/main`. If you prefer to push locally, run the commands above.
-
----
-
-If you'd like, I can also:
-- Create a GitHub repo for you and push the code (requires a token with `repo` scope).
-- Add more README polishing or a GitHub Action to automatically update screenshots.
-
